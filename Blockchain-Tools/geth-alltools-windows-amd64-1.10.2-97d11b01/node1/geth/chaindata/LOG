@@ -1,0 +1,39 @@
+=============== Apr 30, 2021 (EDT) ===============
+22:01:34.036937 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:01:34.044682 db@open opening
+22:01:34.050382 version@stat F·[] S·0B[] Sc·[]
+22:01:34.050382 db@janitor F·2 G·0
+22:01:34.050382 db@open done T·5.7006ms
+22:01:34.060507 db@close closing
+22:01:34.060507 db@close done T·0s
+=============== Apr 30, 2021 (EDT) ===============
+22:06:34.239972 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:06:34.240509 version@stat F·[] S·0B[] Sc·[]
+22:06:34.240509 db@open opening
+22:06:34.240509 journal@recovery F·1
+22:06:34.246149 journal@recovery recovering @1
+22:06:34.246149 memdb@flush created L0@2 N·620 S·50KiB "\x02d\xfc..\x19Ba,v428":"\xfe\x88\xcf..H\xef\xcc,v361"
+22:06:34.251679 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+22:06:34.261732 db@janitor F·3 G·0
+22:06:34.261732 db@open done T·21.2223ms
+22:06:34.281715 table@compaction range L-1 "a":"b"
+22:06:34.281715 table@compaction L0·1 -> L1·0 S·50KiB Q·626
+22:06:34.285868 table@build created L1@5 N·620 S·50KiB "\x02d\xfc..\x19Ba,v428":"\xfe\x88\xcf..H\xef\xcc,v361"
+22:06:34.285868 version@stat F·[0 1] S·50KiB[0B 50KiB] Sc·[0.00 0.00]
+22:06:34.287519 table@compaction committed F~ S~ Ke·0 D·0 T·5.8042ms
+22:06:34.287519 table@compaction range L-1 "o":"p"
+22:08:25.146344 db@close closing
+22:08:25.148331 db@close done T·3.1725ms
+=============== Apr 30, 2021 (EDT) ===============
+22:09:37.004250 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:09:37.004250 version@stat F·[0 1] S·50KiB[0B 50KiB] Sc·[0.00 0.00]
+22:09:37.004250 db@open opening
+22:09:37.004250 journal@recovery F·1
+22:09:37.005759 journal@recovery recovering @3
+22:09:37.005759 memdb@flush created L0@6 N·312 S·14KiB ")\x10_..VM\xa3,v924":"\xd5\x16\x17..\xb7P\xae,v927"
+22:09:37.014334 version@stat F·[1 1] S·65KiB[14KiB 50KiB] Sc·[0.25 0.00]
+22:09:37.024890 db@janitor F·5 G·1
+22:09:37.024890 db@janitor removing table-2
+22:09:37.024890 db@open done T·20.64ms
+22:30:56.208254 db@close closing
+22:30:56.209122 db@close done T·868.2µs
